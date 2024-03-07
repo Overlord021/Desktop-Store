@@ -1,0 +1,83 @@
+{
+  "Menu": [
+    { "id": 1, "name": "home", "link": "#" },
+    { "id": 2, "name": "about", "link": "#" },
+    { "id": 3, "name": "computer", "link": "#" },
+    { "id": 4, "name": "laptop", "link": "#" },
+    { "id": 5, "name": "products", "link": "#" },
+    { "id": 6, "name": "contact us", "link": "#" },
+    { "id": 7, "name": "", "link": "#" },
+    { "id": 8, "name": "login", "link": "#" }
+  ],
+  "Swiper": [
+    { "id": 1, "header":"Computer And Laptop", "title":"Accessories", "para":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or", "image": "./images/Pc-Swiper.png", "alt": "personal computer" },
+    { "id": 2, "header":"Computer And Laptop", "title":"Accessories", "para":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or", "image": "./images/Keyboard-Swiper.png", "alt": "keyboard" },
+    { "id": 3, "header":"Computer And Laptop", "title":"Accessories", "para":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or", "image": "./images/Mouse-Swiper.png", "alt": "mouse" },
+    { "id": 4, "header":"Computer And Laptop", "title":"Accessories", "para":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or", "image": "./images/Speaker-Swiper.png", "alt": "speaker" },
+    { "id": 5, "header":"Computer And Laptop", "title":"Accessories", "para":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or", "image": "./images/Webcam-Swiper.png", "alt": "webcam" }
+  ],
+  "Info": [
+    {
+      "id": 1,
+      "image": "./images/info1.png",
+      "name": "computer",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "alt": "Computer"
+    },
+    {
+      "id": 2,
+      "image": "./images/info2.png",
+      "name": "laptop",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "alt": "Laptop"
+    },
+    {
+      "id": 3,
+      "image": "./images/info3.png",
+      "name": "tablet",
+      "info": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "alt": "Tablet"
+    }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "name": "keyboard",
+      "image": "./images/product1.png",
+      "alt": "Keyboard"
+    },
+    { "id": 2, "name": "mouse", "image": "./images/product2.png", "alt": "Mouse" },
+    { "id": 3, "name": "webcam", "image": "./images/product3.png", "alt": "Webcam" },
+    { "id": 4, "name": "speaker", "image": "./images/product4.png", "alt": "Speaker" },
+    { "id": 5, "name": "modem", "image": "./images/product5.png", "alt": "Modem" },
+    {
+      "id": 6,
+      "name": "hard disk",
+      "image": "./images/product6.png",
+      "alt": "Hard disk"
+    },
+    { "id": 7, "name": "Ram", "image": "./images/product7.png", "alt": "Ram" },
+    { "id": 8, "name": "battery", "image": "./images/product8.png", "alt": "Battery" },
+    { "id": 9, "name": "drive", "image": "./images/product9.png", "alt": "Drive" }
+  ],
+  "Customer": [
+    {
+      "id": 1,
+      "image": "./images/cos.png",
+      "name": "Sandy Miller",
+      "review":"ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    },
+    {
+      "id": 2,
+      "image": "./images/cos.png",
+      "name": "Mandy Siller",
+      "review":"ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    },
+    {
+      "id": 3,
+      "image": "./images/cos.png",
+      "name": "Andy Limmer",
+      "review":"ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id"
+    }
+  ]
+}
