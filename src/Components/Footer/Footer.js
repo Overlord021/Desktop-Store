@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="w-full h-96 flex justify-center bg-blue-500"
+        className="w-full h-96 flex justify-center"
         style={{
           backgroundImage: `url(./images/footer.jpg)`,
         }}

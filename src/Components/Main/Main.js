@@ -3,7 +3,11 @@ import { useEffect, useState } from "react";
 import Menu from "../Menu/Menu";
 import BannerMain from "../Banner-Main/Banner-Main";
 
+import { useContext } from "react";
+import { MyContext } from "../App/App";
 const Main = () => {
+  // const { appmain, loading, error } = useContext(MyContext);
+  // console.log(appmain);
   const [menu, setMenu] = useState(null);
   const fetchMenu = async () => {
     try {
@@ -25,7 +29,7 @@ const Main = () => {
         }}
       >
         <Menu menu={menu} />
-        <BannerMain/>
+        <BannerMain />
       </div>
       <div className="w-full flex relative">
         <div

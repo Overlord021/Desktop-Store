@@ -1,5 +1,4 @@
 const Products = ({ products }) => {
-  console.log(products);
   return (
     <>
       <div className="w-full bg-[#F7F7F7] pb-[120px] flex flex-col items-center">
