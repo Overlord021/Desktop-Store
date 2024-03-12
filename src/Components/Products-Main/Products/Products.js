@@ -1,4 +1,8 @@
-const Products = ({ products }) => {
+import { useContext } from "react";
+import { MyContext } from "../../App/App";
+
+const Products = () => {
+  const { appmain } = useContext(MyContext);
   return (
     <>
       <div className="w-full bg-[#F7F7F7] pb-[120px] flex flex-col items-center">
@@ -7,7 +11,7 @@ const Products = ({ products }) => {
           <div className="h-[1px] bg-[#48CA95]"></div>
         </div>
         <div className="w-[60%] flex flex-wrap justify-between bg-white  pt-[90px]">
-          {products?.map((elem) => {
+          {appmain.Product?.map((elem) => {
             return (
               <div
                 className="w-[31%] h-[270px] flex flex-col items-center pb-[15px] mb-[60px]"

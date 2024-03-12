@@ -1,18 +1,14 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import "./styles.css";
-
-// import required modules
 import { Pagination, Navigation } from "swiper/modules";
+import { MyContext } from "../../App/App";
 
-const Banner = ({ banner }) => {
+const Banner = () => {
+  const { appmain } = useContext(MyContext);
   return (
     <>
       <div className="w-full h-[70%] flex justify-center">
@@ -26,7 +22,7 @@ const Banner = ({ banner }) => {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
-            {banner?.map((elem) => {
+            {appmain.Swiper?.map((elem) => {
               return (
                 <SwiperSlide key={elem.id}>
                   <div className="w-full h-[80%] flex justify-evenly text-[#ffffff]">

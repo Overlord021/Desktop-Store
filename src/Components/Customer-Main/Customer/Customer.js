@@ -7,7 +7,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Customer.css";
 import { Pagination } from "swiper/modules";
-const Customer = ({ customer }) => {
+import { MyContext } from "../../App/App";
+import { useContext } from "react";
+const Customer = () => {
+  const { appmain } = useContext(MyContext);
   return (
     <>
       <div className="w-full h-[600px] flex items-center flex-col">
@@ -28,7 +31,7 @@ const Customer = ({ customer }) => {
               modules={[Pagination]}
               className="mySwiper"
             >
-              {customer?.map((elem) => {
+              {appmain.Customer?.map((elem) => {
                 return (
                   <SwiperSlide key={elem.id}>
                     <div className="w-[80%]">

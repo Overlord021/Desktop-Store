@@ -8,7 +8,7 @@ const Discount = () => {
               <p className="text-[40px] text-white pb-[24px]">
                 Every Computer and laptop
               </p>
-              <h2 className="text-[80px] text-white">Up to 40% off !</h2>
+              <h2 className="text-[72px] text-white">Up to 40% off !</h2>
             </div>
             <div className="w-full mt-[50px]">
               <a

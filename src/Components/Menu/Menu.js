@@ -1,7 +1,8 @@
-// import { useContext } from "react";
+import { useContext } from "react";
 import { IoSearch } from "react-icons/io5";
-// import { MyContext } from "../App/App";
-const Menu = ({ menu }) => {
+import { MyContext } from "../App/App";
+const Menu = () => {
+  const { appmain } = useContext(MyContext);
   return (
     <>
       <div className="w-full h-40 z-10">
@@ -16,13 +17,13 @@ const Menu = ({ menu }) => {
           <div className="w-[100%] flex items-center justify-end ">
             <nav className="w-[55%] ">
               <ul className="flex">
-                {menu?.map((elem) => {
+                {appmain.Menu?.map((elem) => {
                   return (
                     <li
                       className={`${
-                        elem.id == 7
+                        elem.id === 7
                           ? "text-[22px] w-1/2"
-                          : elem.id == 1
+                          : elem.id === 1
                           ? "w-[60%]"
                           : "w-full"
                       } mx-3 h-14 flex items-center`}
@@ -32,7 +33,7 @@ const Menu = ({ menu }) => {
                         className="w-full h-full text-[#ffffff] font-semibold flex items-center justify-center hover:text-[#51fe44] transition-all duration-500 hover:transition-all hover:ease-in-out hover:duration-500"
                         href={elem.link}
                       >
-                        {elem.id == 7 ? <IoSearch /> : null}
+                        {elem.id === 7 ? <IoSearch /> : null}
                         {elem.name}
                       </a>
                     </li>
