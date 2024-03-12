@@ -1,4 +1,6 @@
+// import { useContext } from "react";
 import { IoSearch } from "react-icons/io5";
+// import { MyContext } from "../App/App";
 const Menu = ({ menu }) => {
   return (
     <>
