@@ -1,9 +1,5 @@
-import { useContext } from "react";
 import { IoSearch } from "react-icons/io5";
-import { MyContext } from "../App/App";
 const Menu = ({ menu }) => {
- const{appmain,loading,error}=useContext(MyContext);
-//  console.log(useContext(MyContext))
   return (
     <>
       <div className="w-full h-40 z-10">
