@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Desktop-Store/static/css/main.300cb83b.css",
+    "main.js": "/Desktop-Store/static/js/main.3c7593f8.js",
+    "index.html": "/Desktop-Store/index.html",
+    "main.300cb83b.css.map": "/Desktop-Store/static/css/main.300cb83b.css.map",
+    "main.3c7593f8.js.map": "/Desktop-Store/static/js/main.3c7593f8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300cb83b.css",
+    "static/js/main.3c7593f8.js"
+  ]
+}
